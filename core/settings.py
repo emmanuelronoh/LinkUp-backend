@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-)4m^750@)jng9()6tg$la&wbwk=7g$&w#3xv5l1vvrohp2)pg#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["linkup-backend-dwf6.onrender.com", "localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["linkup-backend-dwf6.onrender.com", "localhost", "127.0.0.1", "linkup-frontend-six.vercel.app"]
 
 
 # Application definition
@@ -133,7 +133,8 @@ USE_TZ = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
-    "linkup-backend-dwf6.onrender.com"
+    "linkup-backend-dwf6.onrender.com",
+    "linkup-frontend-six.vercel.app"
 ]
 
 # Static files (CSS, JavaScript, Images)
